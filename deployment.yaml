@@ -11,7 +11,7 @@ spec:
         app: cb-test-api
     spec:
       containers:
-      - image: 262213740647.dkr.ecr.ap-northeast-2.amazonaws.com/k5s_ecr:v20
+      - image: 262213740647.dkr.ecr.ap-northeast-2.amazonaws.com/k5s_ecr:v21
         imagePullPolicy: Always
         name: cb-test-api
         ports:
